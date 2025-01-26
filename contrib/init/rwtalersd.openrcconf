@@ -1,0 +1,33 @@
+# /etc/conf.d/rwtalersd: config file for /etc/init.d/rwtalersd
+
+# Config file location
+#BLACKMORED_CONFIGFILE="/etc/rwtalers/rwtalers.conf"
+
+# What directory to write pidfile to?  (created and owned by $BLACKMORED_USER)
+#BLACKMORED_PIDDIR="/var/run/rwtalersd"
+
+# What filename to give the pidfile
+#BLACKMORED_PIDFILE="${BLACKMORED_PIDDIR}/rwtalersd.pid"
+
+# Where to write rwtalersd data (be mindful that the blockchain is large)
+#BLACKMORED_DATADIR="/var/lib/rwtalersd"
+
+# User and group to own rwtalersd process
+#BLACKMORED_USER="rwtalers"
+#BLACKMORED_GROUP="rwtalers"
+
+# Path to rwtalersd executable
+#BLACKMORED_BIN="/usr/bin/rwtalersd"
+
+# Nice value to run rwtalersd under
+#BLACKMORED_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BLACKMORED_OPTS=""
+
+# The timeout in seconds OpenRC will wait for rwtalersd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BLACKMORED_SIGTERM_TIMEOUT=600
