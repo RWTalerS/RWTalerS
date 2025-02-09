@@ -1,7 +1,7 @@
 RWTalerS
 =====================================
 
-http://www.rwtalers.info
+
 
 What is RWTalerS?
 ----------------
