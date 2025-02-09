@@ -9,7 +9,7 @@ What is RWTalerS?
 RWTalerS is a decentralised digital currency with near-instant transaction speeds and negligible transaction fees built upon Proof of Stake 3.0 (PoSV3, BPoS) as
 introduced by the RWTalerS development team.
 
-For more information about RWTalerS itself, see https://rwtalers.org.
+For more information about RWTalerS itself, see further on Homepage when finished
 
 What is RWTalerS?
 ----------------
